@@ -18,4 +18,4 @@ class Carro(models.Model):
     consertos = models.IntegerField(default=0)
 
     def __str__(self) -> str:
-        return self.nome
+        return self.carro
